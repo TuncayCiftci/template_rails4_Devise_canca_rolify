@@ -1,4 +1,4 @@
-== README
+# README
 
 This proyect is for make a basic template with Rails4 + Devise + Cancan + Rolify 
 
@@ -42,6 +42,19 @@ rake db:migrate
 ```
 rake db:seed
 ```
+
+* Remove master repositorio git
+
+```
+git remote rm origin
+```
+
+* Add you repository
+
+```
+git remote add origin https://youurl.git
+```
+
 
 * And Happy Develop
 

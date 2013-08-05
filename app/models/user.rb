@@ -2,6 +2,7 @@ class User < ActiveRecord::Base
   rolify
   	before_create :addrole
 
+  	#Default create user is guest for knot join to private zone
 	def addrole
 		self.add_role :Guest
 	end
