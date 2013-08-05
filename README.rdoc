@@ -2,10 +2,9 @@
 
 This proyect is for make a basic template with Rails4 + Devise + Cancan + Rolify 
 
-Im staring to make it is not functional for the moment this readme change if are ready
 
 
-* Rails4
+* Rails-4
 
 * Cancan
 
@@ -13,3 +12,37 @@ Im staring to make it is not functional for the moment this readme change if are
 
 * Rolify
 
+## Getting Started
+
+* Make Clone
+
+* clone the proyect
+
+```
+git clone https://github.com/obelich/template_rails4_Devise_canca_rolify.git
+```
+
+* Rename the clone result to you proyect name
+
+
+* Run bundle
+
+```
+$ bundle install
+```
+
+* Generate database
+
+```
+rake db:migrate
+```
+
+* Rake the seed to default roles
+
+```
+rake db:seed
+```
+
+* And Happy Develop
+
+I hope you enjoy it sorry for me english i dont speak good english
